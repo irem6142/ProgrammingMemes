@@ -1,0 +1,40 @@
+   * {
+       margin: 0;
+       top: 0;
+   }
+   
+   .container {
+       width: 600px;
+       height: 650px;
+   }
+   
+   .container img {
+       position: absolute;
+       top: 50%;
+       left: 50%;
+       transform: translate(-50%, -50%);
+       box-shadow: 1px 1px 5px 3px black;
+   }
+   
+   .a {
+       position: absolute;
+       top: 10%;
+       left: 50%;
+       transform: translate(-50%, -50%);
+       width: 500px;
+       height: 35px;
+       padding: 15px;
+   }
+   
+   .c {
+       position: absolute;
+       top: 90%;
+       left: 50%;
+       transform: translate(-50%, -50%);
+       width: 500px;
+       height: 35px;
+       padding: 15px;
+       font-size: 25px;
+       color: red;
+       text-shadow: 1px 0px black;
+   }
